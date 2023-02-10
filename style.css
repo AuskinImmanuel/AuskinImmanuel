@@ -1,6 +1,9 @@
 *{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+html{
+    min-height: 100%;
+}
 
 body {
     background-image: linear-gradient(rgb(35, 119, 189), rgb(4, 8, 24));
@@ -12,6 +15,9 @@ h1{
     color: rgb(255, 255, 255);
 }
 
+h3{
+    color: rgb(255, 255, 255);
+}
 p{
    
     color: rgb(214, 214, 214);
