@@ -1,0 +1,6 @@
+fill() - Fill the elements in an array with a static value
+filter() - Creates a new array with every element in an array that pass a test
+find() - Returns the value of the first element in an array that pass a test
+findIndex() - Returns the index of the first element in an array that pass a test
+forEach() - Calls a function for each array element
+from() - Creates an array from an object
