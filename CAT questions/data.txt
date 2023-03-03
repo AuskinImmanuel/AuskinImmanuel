@@ -1,0 +1,5 @@
+[
+    {"name": "auskin", "roll": "12", "mark": "80"},
+    {"name": "aaliya", "roll": "01", "mark": "90"},
+    {"name": "appu", "roll": "04", "mark": "100"}
+]
