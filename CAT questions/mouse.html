@@ -1,0 +1,33 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="image-escape.css" />
+    <title>Block</title>
+  </head>
+
+  <body>
+    <img id="image" src="pic.jpg" alt="ehehe" />
+    <script>
+      img = document.getElementById("image");
+      img.addEventListener("mouseover", function () {
+        // get the width and height of the window
+        let Width = window.innerWidth;
+        let Height = window.innerHeight;
+        // generate random x and y coordinates within the window dimensions
+        let x = Math.floor((Math.random() * (Width - img.width)) % 250);
+        let y = Math.floor((Math.random() * (Height - img.height)) % 250);
+        console.log("Window Width ", Width);
+        console.log("X Width ", x);
+        console.log("Window Height ", Height);
+        console.log("Y Height ", y);
+        // set the new position of the image using CSS transform
+        img.style.transform = `translate(${x}px, ${y}px)`;
+      });
+    </script>
+  </body>
+</html>

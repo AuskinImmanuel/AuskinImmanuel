@@ -1,0 +1,51 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JASON MOMOA</title>
+  </head>
+
+  <body>
+    <table border="1" id="TABLE">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script>
+      function myFunction(arr) {
+        table = document.getElementById("TABLE");
+
+        for (var i = 0; i < arr.length; i++) {
+          var dataRow = document.createElement("tr");
+          var nameData = document.createElement("td");
+          nameData.appendChild(document.createTextNode(arr[i].name));
+          dataRow.appendChild(nameData);
+          var ageData = document.createElement("td");
+          ageData.appendChild(document.createTextNode(arr[i].age));
+          dataRow.appendChild(ageData);
+          table.appendChild(dataRow);
+        }
+      }
+      var xmlhttp = new XMLHttpRequest();
+      var url = "data.txt";
+
+      xmlhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+          var myArr = JSON.parse(this.responseText);
+          myFunction(myArr);
+        }
+      };
+      xmlhttp.open("GET", url, true);
+      xmlhttp.send();
+    </script>
+  </body>
+</html>
