@@ -33,4 +33,4 @@ fully-AI-handled containment from ~10-20% to ~60-70% on best-version cuts.
 
 ### Reach me
 
-[LinkedIn](https://www.linkedin.com/in/auskin-immanuel/)
+[Portfolio](https://auskinimmanuel.github.io) · [LinkedIn](https://www.linkedin.com/in/auskin-immanuel/)
