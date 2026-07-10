@@ -1,35 +1,55 @@
 ## Auskin Immanuel
 
-**Voice AI engineer. I build production voice agents.**
-Associate Product Manager (AI / Agent side) at VoxyHealth.
+**I deploy voice AI where it's hardest: healthcare phone lines.**
+Associate Product Manager, Voice AI (Forward Deployed) at VoxyHealth.
 
-I design and ship conversational voice agents on **ElevenAgents** for
-enterprise healthcare: claims, prior-authorization, eligibility,
-scheduling, front-desk operations, post-discharge outreach. 30+ agents
-built from scratch across 6 enterprise customers, ~3,500 calls a day
-across the fleet.
+I design and ship conversational voice agents on **ElevenLabs Agents**
+for enterprise healthcare: claims, prior-authorization, eligibility,
+scheduling, front-desk operations, post-discharge outreach. 30+
+production agents across 6 enterprise healthcare clients, ~3,500 calls
+a day across the fleet.
+
+The job is forward-deployed product work. I sit in the customer's call
+data, write the spec, build the agent, run the pilot calls myself, and
+hand engineering exact contracts.
 
 ### How I build
 
 Discovery-driven, not template-driven:
 
-> analyze the customer's real call data → catalogue the use cases →
-> confirm scope with the customer → build prompts, tools & evals →
-> iterate on live production traffic
+> analyze the customer's real call data, catalogue the use cases,
+> confirm scope with the customer, build prompts, tools, and evals,
+> then iterate on live test calls and live production traffic
 
 I start every agent from the customer's actual calls, categorize what
 really happens, then design scenarios from that ground truth instead of
 imagined user stories. On one claims agent, that approach lifted
-fully-AI-handled containment from ~10-20% to ~60-70% on best-version cuts.
+fully-AI-handled containment from the 10-20% range to 60-70% on best cuts.
+
+### Lately
+
+- Took a roughly 40-scenario scheduling agent, wired into the customer's
+  EHR, from spec to live pilot for a multi-location orthopedic group.
+  Four live test calls turned into five fix commits and a validation
+  spec for the dev team.
+- Moved about nine production agents to a small, fast model in four
+  weeks. On the biggest one that meant cutting per-turn context from
+  about 20K tokens to 6.4K.
+- Built care-gap outreach agents for a radiology group, and for another
+  customer an architecture that runs multiple care gaps under one master
+  agent.
 
 ### Tools I work with
 
-`ElevenLabs / ElevenAgents` · `GPT-4.1` · `Claude` · `Gemini` ·
-`multi-LLM routing` · `voice-agent eval frameworks` · `HIPAA-aware design`
+`ElevenLabs Agents` · `GPT` · `Claude` · `Gemini` ·
+`multi-LLM routing` · `small-model optimization` · `MCP` ·
+`voice-agent eval frameworks` · `HIPAA-aware design`
 
 ### Building in public
 
-- **[voice-agent-prompting](https://github.com/AuskinImmanuel/voice-agent-prompting)**. How I write production voice agents: prompting architecture, model choice for low-latency telephony, and six worked sample agents you can build on ElevenLabs.
+- **[voice-agent-prompting](https://github.com/AuskinImmanuel/voice-agent-prompting)**. How I write production voice agents: prompting architecture, small fast models on telephony, the live test-call loop, and six worked sample agents you can build on ElevenLabs.
+- **[elevenlabs-python-experiments](https://github.com/AuskinImmanuel/elevenlabs-python-experiments)**. Small Python scripts against the ElevenLabs agents API. Create an agent from a prompt file, patch it, score its transcripts. Sandbox quality on purpose.
+- **[elevenlabs-mcp-experiments](https://github.com/AuskinImmanuel/elevenlabs-mcp-experiments)**. A small read-only MCP server for ElevenLabs workspace data. I write tool definitions every week at work; this is the same idea from the server side.
 
 ### Reach me
 
