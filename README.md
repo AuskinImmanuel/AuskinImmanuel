@@ -9,9 +9,11 @@ scheduling, front-desk operations, post-discharge outreach. 30+
 production agents across 6 enterprise healthcare clients, ~3,500 calls
 a day across the fleet.
 
-The job is forward-deployed product work. I sit in the customer's call
-data, write the spec, build the agent, run the pilot calls myself, and
-hand engineering exact contracts.
+The job is forward-deployed product work: customer onboarding and
+implementation, end to end. I sit in the customer's call data, write the
+spec, build the agent, run the pilot calls myself, and hand engineering
+exact contracts. Success criteria come first: the eval rubric is agreed
+before the build, and pass-rate gates the release.
 
 ### How I build
 
