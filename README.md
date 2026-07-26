@@ -3,6 +3,8 @@
 **I deploy voice AI where it's hardest: healthcare phone lines.**
 Associate Product Manager, Voice AI (Forward Deployed) at VoxyHealth.
 
+**[auskinimmanuel.github.io](https://auskinimmanuel.github.io)** is the full story. Click the orb and talk to **Lia**, the voice agent I built to answer for me.
+
 I design and ship conversational voice agents on **ElevenLabs Agents**
 for enterprise healthcare: claims, prior-authorization, eligibility,
 scheduling, front-desk operations, post-discharge outreach. 30+
