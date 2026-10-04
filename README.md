@@ -1,7 +1,7 @@
 ## Auskin Immanuel
 
 **I care most about what happens after go-live.**
-Healthcare voice AI at VoxyHealth, Aug 2025 - Oct 2026. From November 2026, Associate - Forward Deployed Strategist in Chennai.
+I built healthcare voice AI at VoxyHealth, Aug 2025 - Oct 2026. In November 2026 I start as an Associate - Forward Deployed Strategist, in Chennai.
 
 **[auskinimmanuel.github.io](https://auskinimmanuel.github.io)** is the full story. Click the orb and talk to **Lia**, the voice agent I built to answer for me.
 
@@ -12,7 +12,7 @@ post-discharge outreach. 30+ built, 20 live in production for 6
 enterprise healthcare clients, about 3,500 calls a day across the fleet
 (Jul 2026).
 
-At VoxyHealth the job was forward-deployed product work: customer
+The job was forward-deployed product work: customer
 onboarding and implementation, end to end. I sat in the customer's call
 data, wrote the spec, built the agent, ran the pilot calls myself, and
 handed engineering exact contracts. Success criteria came first: I
@@ -27,13 +27,13 @@ Discovery-driven, not template-driven:
 > confirm scope with the customer, build prompts, tools, and evals,
 > then iterate on live test calls and live production traffic
 
-At VoxyHealth I started every agent from the customer's actual calls,
+I started every agent from the customer's actual calls,
 categorized what really happened, then designed scenarios from that
 ground truth instead of imagined user stories. On one claims agent, that
 approach lifted fully-AI-handled containment from the 10-20% range to
 60-70% on best cuts, between March and July 2026.
 
-### At VoxyHealth
+### What I shipped
 
 - Took a roughly 40-scenario scheduling agent, wired into the customer's
   EHR, from spec to go-live in August 2026 for a multi-location
