@@ -1,7 +1,7 @@
 ## Auskin Immanuel
 
 **I care most about what happens after go-live.**
-I built healthcare voice AI at VoxyHealth, Aug 2025 - Oct 2026. In November 2026 I start as an Associate - Forward Deployed Strategist, in Chennai.
+I'm an Associate - Forward Deployed Strategist at Rocketlane, in Chennai. Before that I built healthcare voice AI at VoxyHealth, Aug 2025 - Oct 2026.
 
 **[auskinimmanuel.github.io](https://auskinimmanuel.github.io)** is the full story. Click the orb and talk to **Lia**, the voice agent I built to answer for me.
 
